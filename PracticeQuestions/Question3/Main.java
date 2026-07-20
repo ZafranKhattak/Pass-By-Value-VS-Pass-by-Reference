@@ -1,0 +1,17 @@
+package PracticeQuestions.Question3;
+
+public class Main {
+
+    static void change(int[] arr) {
+        arr[0] = 100;
+    }
+
+    public static void main(String[] args) {
+
+        int[] a = {10, 20, 30};
+
+        change(a);
+
+        System.out.println(a[0]);
+    }
+}
